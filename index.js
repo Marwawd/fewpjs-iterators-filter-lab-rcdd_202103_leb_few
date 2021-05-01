@@ -8,7 +8,7 @@ function findMatching (array, name) {
 
 //array.filter(item=>(item.charAt(0).toUpperCase()===string.charAt(0).toUpperCase()));
 
-  
+
 
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
