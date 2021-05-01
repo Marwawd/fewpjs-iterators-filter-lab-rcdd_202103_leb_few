@@ -1,13 +1,9 @@
 // Code your solution here
 function findMatching (array, name) {
-  return list.filter(function (n) {
+  return array.filter(function (n) {
     return n.toLowerCase() === name.toLowerCase();
   });
 }
- //(item.charAt(0).toUpperCase()===string.charAt(0).toUpperCase())));
-
-//array.filter(item=>(item.charAt(0).toUpperCase()===string.charAt(0).toUpperCase()));
-
 
 
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
