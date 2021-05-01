@@ -1,7 +1,7 @@
 // Code your solution here
-function findMatching (list, name) {
-  return list.filter(function (driverName) {
-    return driverName.toLowerCase() === name.toLowerCase();
+function findMatching (array, name) {
+  return list.filter(function (n) {
+    return n.toLowerCase() === name.toLowerCase();
   });
 }
  //(item.charAt(0).toUpperCase()===string.charAt(0).toUpperCase())));
